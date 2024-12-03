@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+app:
+  base-url: http://localhost:8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/socialmediav2
+    username: root
+    password: Skyno123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  mailServer:
+    host: smtp.gmail.com
+    port: 587
+    email: qkgamming@gmail.com
+    password: trel ebon hzes wpmc
+    protocol: smtp
+    isSSL: false
+
+
+
+signer:
+  key: MRkporsIItbA8Bvv4yisUmzXgt3xKsPSm4/v+Qg86TIwVyi4olnKNczsadze6e85
